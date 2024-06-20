@@ -1,0 +1,38 @@
+.output_name{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 1px black;
+}
+.border_bottom{
+    border-bottom: solid 1px black;
+}
+.INFO{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.id{
+    position: relative;
+    width:12%;
+    text-align: center;
+}
+.username{
+    position:relative;
+    width:14%;
+    text-align:center;
+}
+.companyname{
+    width:19%;
+    text-align: center;
+}
+.price_position{
+    width:18%;
+    text-align: center;
+}
+.tax_position{
+    width: 10%;
+    text-align: center;
+}
+.createdat{
+    width: 27%;
+    text-align: center;
+}

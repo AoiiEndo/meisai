@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<style>
+    body{
+        margin: 0;
+        background-color: #fff;
+    }
+    .dashed{
+        position: relative;
+        top: 5px;
+        margin: 10px 0 5px 0;
+        height: 10px;
+        border-top: dashed 1px black;
+    }
+    .dashed1{
+        position: relative;
+        /* top: 5px; */
+        margin: 10px 0 5px 0;
+        height: 10px;
+        border-top: dashed 1px black;
+    }
+    .real_money_1{
+        position: absolute;
+        border: solid 1px black;
+        top: 80px;
+        width: 95px;
+        height: 26px;
+        left: 530px;
+    }
+    .kogi_1{
+        position: absolute;
+        border: solid 1px black;
+        top: 106px;
+        width: 95px;
+        height: 26px;
+        left: 530px;
+    }
+    .tega_1{
+        position: absolute;
+        border: solid 1px black;
+        top: 133px;
+        width: 95px;
+        height: 25px;
+        left: 530px;
+    }
+    .amount_1{
+        position: absolute;
+        border: solid 1px black;
+        top: 158px;
+        width: 95px;
+        height: 26px;
+        left: 530px;
+    }
+    .span{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* .span1{
+        position: relative;
+        top: 50px;
+        transform: translate(-50%, -50%);
+    } */
+    /* ------------------------------------------------ */
+.top_receipt_outline{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    left: 5px;
+    width: 98.5%;
+    height: 305px;
+    border: solid 1px black;
+}
+.top_block{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    left: 40%;
+}
+.title_label{
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    top: 10px;
+}
+.date_label{
+    position: relative;
+    top: 10px;
+    left: 140px;
+    display: flex;
+}
+.month_label{
+    position: relative;
+    left: 35px;
+}
+.date_label_1{
+    position: relative;
+    left: 70px;
+}
+.flex{
+    display: flex;
+}
+.left_info{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.trade_name_label{
+ position: relative;
+ top: 10px;
+ border-bottom: solid 1px black;
+ /* width: 250px; */
+ text-align: center;
+}
+.trade_name{
+    position: absolute;
+    left: 260px;
+    font-size: 20px;
+}
+.price_label{
+    position: relative;
+    top: 20px;
+    width: 250px;
+    border-bottom: solid 1px black;
+}
+.price{
+    position: relative;
+    left: 10px;
+}
+.detail_label{
+    border-bottom: solid 1px black;
+    width: 250px;
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+}
+.receipt_word{
+    position: relative;
+    top: 40px;
+    font-size: 13px;
+}
+.company_name_own{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 200px;
+}
+.company_name_label{
+    font-size: 20px;
+}
+.company_name_info{
+    position: relative;
+    top: 43px;
+    left: 10px;
+    font-size: small;
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+}
+.table{
+    position: absolute;
+    top: 80px;
+    left: 480px;
+    text-align: center;
+    display: block;
+    border: solid 1px black;
+}
+.tax{
+    position: relative;
+    top: 190px;
+    font-size: small;
+    left: -40px;
+    border-bottom: solid 1px black;
+    width: 150px;
+    height: 20px;
+}
+.price_detail_label{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 55px;
+    left: 230px;
+    width: 200px;
+    height: 127.5px;
+    border: solid 2px black;
+}
+.border{
+    border: solid 1px black;
+}
+.Stamp_Position{
+    position: relative;
+    left: 470px;
+    top: -20px;
+    width: 40px;
+    text-align: center;
+    border: dashed 1px black;
+}
+.seal{
+    position: relative;
+    left: 500px;
+    top: 10px;
+    height: 10px;
+}
+.posi{
+    display: flex;
+}
+/* 2-------------------------------- */
+.midel_receipt_outline{
+    position: relative;
+    border: solid 1px black;
+    left: 5px;
+    left: 5px;
+    width: 98.5%;
+    height: 305px;
+}
+.date_due{
+    position: relative;
+    left: 360px;
+    top: -250px;
+    border: solid 1px black;
+    font-size: small;
+    width: 60px;
+    text-align: center;
+}
+.due_date_stamp{
+    border: solid 0.5px black;
+    width: 60px;
+    height: 60px;
+}
+/* 3-------------------------------- */
+.bottom_receipt_outline{
+    position: relative;
+    border: solid 1px black;
+    left: 5px;
+    top: -5px;
+    width: 98.5%;
+    height: 305px;
+}
+.img{
+    position: absolute;
+    top: 155px;
+    left: 200px;
+    width: 80px;
+}
+/* ******************** */
+.year_place{
+    top: 12px;
+    left: -29px;
+}
+.month_place{
+    top: 12px;
+    left: 40px;
+}
+.date_place{
+    top: 12px;
+    left: 90px;
+}
+</style>
+</head>
+<body>
+    <!-- 1----------------------------------------------------------------------------------------- -->
+<div class="top_receipt_outline">
+    <div class="top_block">
+        <a class="title_label">領収証（控）</a>
+        <div class="date_label">
+            <span id="yearvalue" class="span year_place"></span>
+            <span id="monthvalue" class="span month_place"></span>
+            <span id="datevalue" class="span date_place"></span>
+            <div class="year_label">
+                <a class="year">年</a>
+            </div>
+            <div class="month_label">
+                <a class="month">月</a>
+            </div>
+            <div class="date_label_1">
+                <a class="date">日</a>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="left_info">
+            <div class="trade_name_label">
+                <span id="company1" class="span1"></span>
+                <a class="trade_name">様</a>
+            </div>
+            <div class="price_label">
+                <a class="price">¥</a>
+                <span id="amountValue1" class="span"></span>
+            </div>
+            <div class="detail_label">
+                <a class="detail">但し</a>
+            </div>
+        </div>
+        <div class="price_detail_label">内訳</div>
+        <div class="table">
+            <div class="price_detail_1 border">
+                <a class="real_money">現金</a>
+            </div>
+            <div class="price_detail_2 border">
+                <a class="kogi">小切手</a>
+            </div>
+            <div class="price_detail_3 border">
+                <a class="tega">手形</a>
+            </div>
+            <div class="price_detail_4 border">
+                <a class="amount">合計</a>
+            </div>
+        </div>
+        <div class="real_money_1"></div>
+        <div class="kogi_1"></div>
+        <div class="tega_1"></div>
+        <div class="amount_1"></div>
+        <div class="tax">
+            <a class="tax_label">内消費税</a>
+            <span id="tax_ratio1" class="span">10%</span>
+        </div>
+    </div>
+    <a class="receipt_word">上記の通り領収しました。</a>
+    <div class="company_name_own">
+        <a class="kabu">株式会社</a>
+        <a class="company_name_label">---</a>
+    </div>
+    <div class="company_name_info">
+        <a class="company_adress_info">本社  〒--- ---</a>
+        <a class="company_tel_info">TEL ---  FAX ---</a>
+     <a class="invoice_number">登録番号 ---</a>
+     <a class="caution_label">（本書に社印なく又は金額の文字を加除したものは無効とす。）</a>
+    </div>
+    <div class="right_info">
+        <div class="posi">
+            <div class="stamp">
+                <div class="Stamp_Position">
+                    <a class="stamp_label">収入印紙</a>
+                    
+                </div>
+            </div>
+            <div class="seal">
+                <div class="seal_position">
+                    <a class="seal_label">係印</a>
+                    <a class="seal_1"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 破線 -->
+<div class="dashed"></div>
+<!-- 2---------------------------------------------------------------------------- -->
+<div class="midel_receipt_outline">
+    <div class="top_block">
+        <a class="title_label">支払証明</a>
+        <div class="date_label">
+            <span id="yearvalue2" class="span year_place"></span>
+            <span id="monthvalue2" class="span month_place"></span>
+            <span id="datevalue2" class="span date_place"></span>
+            <div class="year_label">
+                <a class="year">年</a>
+            </div>
+            <div class="month_label">
+                <a class="month">月</a>
+            </div>
+            <div class="date_label_1">
+                <a class="date">日</a>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="left_info">
+            <div class="trade_name_label">
+                <span id="company2" class="span1"></span>
+                <a class="trade_name">様</a>
+            </div>
+            <div class="price_label">
+                <a class="price">¥</a>
+                <span id="amountValue2" class="span"></span>
+            </div>
+            <div class="detail_label">
+                <a class="detail">但し</a>
+            </div>
+        </div>
+        <div class="price_detail_label">内訳</div>
+        <div class="table">
+            <div class="price_detail_1 border">
+                <a class="real_money">現金</a>
+            </div>
+            <div class="price_detail_2 border">
+                <a class="kogi">小切手</a>
+            </div>
+            <div class="price_detail_3 border">
+                <a class="tega">手形</a>
+            </div>
+            <div class="price_detail_4 border">
+                <a class="amount">合計</a>
+            </div>
+        </div>
+        <div class="real_money_1"></div>
+        <div class="kogi_1"></div>
+        <div class="tega_1"></div>
+        <div class="amount_1"></div>
+        <div class="tax">
+            <a class="tax_label">内消費税</a>
+            <span id="tax_ratio2" class="span">10%</span>
+        </div>
+    </div>
+    <a class="receipt_word">上記の通り領収しました。</a>
+    <div class="company_name_own">
+        <a class="kabu">株式会社</a>
+        <a class="company_name_label">---</a>
+    </div>
+    <div class="company_name_info">
+        <a class="company_adress_info">本社  〒--- ---</a>
+        <a class="company_tel_info">TEL ---  FAX ---</a>
+     <a class="invoice_number">登録番号 ---</a>
+     <a class="caution_label">（本書に社印なく又は金額の文字を加除したものは無効とす。）</a>
+    </div>
+    <div class="right_info">
+        <div class="posi">
+            <div class="stamp">
+                <div class="Stamp_Position">
+                    <a class="stamp_label">収入印紙</a>
+                    
+                </div>
+            </div>
+            <div class="seal">
+                <div class="seal_position">
+                    <a class="seal_label">係印</a>
+                    <a class="seal_1"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="date_due">
+        <a class="due_date_label">支払確認</a>
+        <div class="due_date_stamp"></div>
+    </div>
+</div>
+<div class="dashed1"></div>
+<!-- 3---------------------------------------------------------------------------- -->
+<div class="bottom_receipt_outline">
+    <div class="top_block">
+        <a class="title_label">領収証</a>
+        <div class="date_label">
+            <span id="yearvalue3" class="span year_place"></span>
+            <span id="monthvalue3" class="span month_place"></span>
+            <span id="datevalue3" class="span date_place"></span>
+            <div class="year_label">
+                <a class="year">年</a>
+            </div>
+            <div class="month_label">
+                <a class="month">月</a>
+            </div>
+            <div class="date_label_1">
+                <a class="date">日</a>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="left_info">
+            <div class="trade_name_label">
+                <span id="company3" class="span1"></span>
+                <a class="trade_name">様</a>
+            </div>
+            <div class="price_label">
+                <a class="price">¥</a>
+                <span id="amountValue3" class="span"></span>
+            </div>
+            <div class="detail_label">
+                <a class="detail">但し</a>
+            </div>
+        </div>
+        <div class="price_detail_label">内訳</div>
+        <div class="table">
+            <div class="price_detail_1 border">
+                <a class="real_money">現金</a>
+            </div>
+            <div class="price_detail_2 border">
+                <a class="kogi">小切手</a>
+            </div>
+            <div class="price_detail_3 border">
+                <a class="tega">手形</a>
+            </div>
+            <div class="price_detail_4 border">
+                <a class="amount">合計</a>
+            </div>
+        </div>
+        <div class="real_money_1"></div>
+        <div class="kogi_1"></div>
+        <div class="tega_1"></div>
+        <div class="amount_1"></div>
+        <div class="tax">
+            <a class="tax_label">内消費税</a>
+            <span id="tax_ratio3" class="span">10%</span>
+        </div>
+    </div>
+    <a class="receipt_word">上記の通り領収しました。</a>
+    <img src="---" class="img" alt="社印"/>
+    <div class="company_name_own">
+        <a class="kabu">株式会社</a>
+        <a class="company_name_label">---</a>
+    </div>
+    <div class="company_name_info">
+        <a class="company_adress_info">本社  〒--- ---</a>
+        <a class="company_tel_info">TEL ---  FAX ---</a>
+     <a class="invoice_number">登録番号 ---</a>
+     <a class="caution_label">（本書に社印なく又は金額の文字を加除したものは無効とす。）</a>
+    </div>
+    <div class="right_info">
+        <div class="posi">
+            <div class="stamp">
+                <div class="Stamp_Position">
+                    <a class="stamp_label">収入印紙</a>
+                </div>
+            </div>
+            <div class="seal">
+                <div class="seal_position">
+                    <a class="seal_label">係印</a>
+                    <a class="seal_1"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,337 @@
+body{
+            margin: 0;
+        }
+        .app{
+            display: flex;
+            height: 80rem;
+            width: 90rem;
+        }
+        .left_table{
+            height: 80rem;
+            width: 50rem;
+            background-color: rgb(210, 216, 216);
+            border: solid 1px gray;
+        }
+        .right_table{
+            height: 80rem;
+            width: 50rem;
+            background-color: rgb(210, 216, 216);
+            border: solid 1px gray;
+        }
+        .left_label_position{
+            display: flex;
+            flex-flow: column;
+            position: relative;
+            width: 400px;
+            margin-right: 0;
+            top: 300px;
+            left: 30%;
+        }
+        .input_height{
+            font-size: 20px;
+        }
+        .star_color{
+            color: red;
+        }
+        .calender{
+            width: 120px;
+        }
+        .side1{
+            display: flex;
+        }
+        .side{
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .unit1{
+            padding-left: 5px; 
+        }
+        .unit2{
+            padding-right: 5px;
+        }
+        .company_name_input{
+            width: 300px;
+        }
+        .transactions_money_input{
+            width: 300px;
+        }
+        .tax_label{
+            margin-top: 10px;
+        }
+        .tax2{
+            width: 80px;
+            font-size: 50px;
+        }
+        /* ======================================= */
+        .name{
+            margin: 5px;
+        }
+        .receipt2{
+            position: absolute;
+            top: 60px;
+            left: 7px;
+            width: 700px;
+            background-color: #fff;
+        }
+        .receipt{
+            position: relative;
+            top: 10px;
+            left: 10px;
+            width: 97%;
+            height: 76.4%;
+            border: solid 1px black;
+        }
+        .print{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        /* iframe用 ******************************************************************/
+        body{
+            margin: 0;
+            background-color: #fff;
+        }
+        .dashed{
+            position: relative;
+            top: 5px;
+            margin: 10px 0 5px 0;
+            height: 10px;
+            border-top: dashed 1px black;
+        }
+        .dashed1{
+            position: relative;
+            /* top: 5px; */
+            margin: 10px 0 5px 0;
+            height: 10px;
+            border-top: dashed 1px black;
+        }
+        .real_money_1{
+            position: absolute;
+            border: solid 1px black;
+            top: 80px;
+            width: 95px;
+            height: 26px;
+            left: 530px;
+        }
+        .kogi_1{
+            position: absolute;
+            border: solid 1px black;
+            top: 106px;
+            width: 95px;
+            height: 26px;
+            left: 530px;
+        }
+        .tega_1{
+            position: absolute;
+            border: solid 1px black;
+            top: 133px;
+            width: 95px;
+            height: 25px;
+            left: 530px;
+        }
+        .amount_1{
+            position: absolute;
+            border: solid 1px black;
+            top: 158px;
+            width: 95px;
+            height: 26px;
+            left: 530px;
+        }
+        .span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        /* ------------------------------------------------ */
+    .top_receipt_outline{
+        position: relative;
+        top: 5px;
+        left: 5px;
+        left: 5px;
+        width: 98.5%;
+        height: 305px;
+        border: solid 1px black;
+    }
+    .top_block{
+        position: absolute;
+        display: flex;
+        text-align: center;
+        left: 40%;
+    }
+    .title_label{
+        position: relative;
+        font-size: 20px;
+        display: flex;
+        top: 10px;
+    }
+    .date_label{
+        position: relative;
+        top: 10px;
+        left: 140px;
+        display: flex;
+    }
+    .month_label{
+        position: relative;
+        left: 35px;
+    }
+    .date_label_1{
+        position: relative;
+        left: 70px;
+    }
+    .flex{
+        display: flex;
+    }
+    .left_info{
+        position: relative;
+        top: 50px;
+        left: 10px;
+    }
+    .trade_name_label{
+     position: relative;
+     top: 10px;
+     border-bottom: solid 1px black;
+     width: 250px;
+    }
+    .trade_name{
+        position: relative;
+        left: 250px;
+        font-size: 20px;
+    }
+    .price_label{
+        position: relative;
+        top: 20px;
+        width: 250px;
+        border-bottom: solid 1px black;
+    }
+    .price{
+        position: relative;
+        left: 10px;
+    }
+    .detail_label{
+        border-bottom: solid 1px black;
+        width: 250px;
+        font-size: 13px;
+        position: relative;
+        top: 30px;
+    }
+    .receipt_word{
+        position: relative;
+        top: 40px;
+        font-size: 13px;
+    }
+    .company_name_own{
+        position: relative;
+        top: 40px;
+        left: 40px;
+        width: 200px;
+    }
+    .company_name_label{
+        font-size: 20px;
+    }
+    .company_name_info{
+        position: relative;
+        top: 43px;
+        left: 10px;
+        font-size: small;
+        display: flex;
+        flex-flow: column;
+        width: 400px;
+    }
+    .table{
+        position: absolute;
+        top: 80px;
+        left: 480px;
+        text-align: center;
+        display: block;
+        border: solid 1px black;
+    }
+    .tax{
+        position: relative;
+        top: 190px;
+        font-size: small;
+        left: -40px;
+        border-bottom: solid 1px black;
+        width: 150px;
+        height: 20px;
+    }
+    .price_detail_label{
+        position: relative;
+        display: block;
+        text-align: center;
+        top: 55px;
+        left: 230px;
+        width: 200px;
+        height: 127.5px;
+        border: solid 2px black;
+    }
+    .border{
+        border: solid 1px black;
+    }
+    .Stamp_Position{
+        position: relative;
+        left: 470px;
+        top: -20px;
+        width: 40px;
+        text-align: center;
+        border: dashed 1px black;
+    }
+    .seal{
+        position: relative;
+        left: 500px;
+        top: 10px;
+        height: 10px;
+    }
+    .posi{
+        display: flex;
+    }
+    /* 2-------------------------------- */
+    .midel_receipt_outline{
+        position: relative;
+        border: solid 1px black;
+        left: 5px;
+        left: 5px;
+        width: 98.5%;
+        height: 305px;
+    }
+    .date_due{
+        position: relative;
+        left: 360px;
+        top: -250px;
+        border: solid 1px black;
+        font-size: small;
+        width: 60px;
+        text-align: center;
+    }
+    .due_date_stamp{
+        border: solid 0.5px black;
+        width: 60px;
+        height: 60px;
+    }
+    /* 3-------------------------------- */
+    .bottom_receipt_outline{
+        position: relative;
+        border: solid 1px black;
+        left: 5px;
+        top: -5px;
+        width: 98.5%;
+        height: 305px;
+    }
+    .img{
+        position: absolute;
+        top: 155px;
+        left: 200px;
+        width: 80px;
+    }
+    /* ******************** */
+    .year_place{
+        top: 12px;
+        left: -29px;
+    }
+    .month_place{
+        top: 12px;
+        left: 40px;
+    }
+    .date_place{
+        top: 12px;
+        left: 90px;
+    }
